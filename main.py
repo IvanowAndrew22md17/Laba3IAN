@@ -42,8 +42,7 @@ def f4():
         a = randint(1, 10)
         b = randint(1, 10)
         c = a + b
-        print(a, "+", b, "=")
-        d = int(input())
+        d = int(input(f"{a} + {b} = "))
         if d==c:
             r = r + 1
             print("Правильно!")
